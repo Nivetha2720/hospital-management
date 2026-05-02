@@ -1,0 +1,119 @@
+/* =========================================
+   CareCluster — CSS Design Tokens
+   Dark theme default, light via [data-theme="light"]
+   ========================================= */
+
+:root {
+  /* ── Primary palette ── */
+  --primary: #4f8cff;
+  --primary-hover: #3a7af0;
+  --primary-light: rgba(79,140,255,.12);
+  --primary-glow: rgba(79,140,255,.25);
+
+  /* ── Accent: medical green ── */
+  --accent-green: #34d399;
+  --accent-green-light: rgba(52,211,153,.12);
+
+  /* ── Semantic ── */
+  --success: #22c55e;
+  --success-light: rgba(34,197,94,.12);
+  --warning: #f59e0b;
+  --warning-light: rgba(245,158,11,.12);
+  --danger: #ef4444;
+  --danger-light: rgba(239,68,68,.12);
+  --info: #06b6d4;
+  --info-light: rgba(6,182,212,.12);
+
+  /* ── Organ donation green ── */
+  --organ-green: #10b981;
+  --organ-green-light: rgba(16,185,129,.10);
+
+  /* ── Surfaces (dark default) ── */
+  --bg-body: #0b0f1a;
+  --bg-sidebar: #101829;
+  --bg-card: #151d2e;
+  --bg-card-hover: #1a2540;
+  --bg-input: #1a2235;
+  --bg-header: #101829;
+  --bg-modal: #151d2e;
+  --bg-tooltip: #1e293b;
+  --bg-table-stripe: rgba(255,255,255,.02);
+  --bg-landing: linear-gradient(135deg, #0b0f1a 0%, #1a1040 50%, #0b0f1a 100%);
+
+  /* ── Borders ── */
+  --border-color: rgba(255,255,255,.08);
+  --border-color-strong: rgba(255,255,255,.15);
+  --border-input: rgba(255,255,255,.12);
+
+  /* ── Text ── */
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-inverse: #0f172a;
+  --text-on-primary: #ffffff;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.3);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.35);
+  --shadow-lg: 0 8px 30px rgba(0,0,0,.4);
+  --shadow-glow: 0 0 20px rgba(79,140,255,.15);
+  --shadow-card: 0 2px 8px rgba(0,0,0,.25);
+
+  /* ── Typography ── */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --fs-xs: 0.7rem;
+  --fs-sm: 0.8rem;
+  --fs-base: 0.9rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.15rem;
+  --fs-xl: 1.35rem;
+  --fs-2xl: 1.6rem;
+  --fs-3xl: 2rem;
+  --fs-4xl: 2.5rem;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* ── Spacing ── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* ── Border Radius ── */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* ── Layout ── */
+  --sidebar-width: 260px;
+  --sidebar-collapsed: 68px;
+  --header-height: 60px;
+
+  /* ── Z-index layers ── */
+  --z-sidebar: 100;
+  --z-header: 110;
+  --z-modal-backdrop: 200;
+  --z-modal: 210;
+  --z-toast: 300;
+  --z-tooltip: 250;
+
+  /* ── Transitions ── */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* ── Scrollbar ── */
+  --scrollbar-width: 6px;
+  --scrollbar-track: transparent;
+  --scrollbar-thumb: rgba(255,255,255,.12);
+}
